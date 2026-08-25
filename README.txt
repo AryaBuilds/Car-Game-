@@ -2,7 +2,7 @@ Motu Patlu Road Race
 
 A small and fun Game
 
-## How to Play
+ How to Play
 
 Use the Left Arrow key to move left
 
