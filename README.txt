@@ -18,13 +18,13 @@ Try not to hit the other car or the road obstacless
 
 The car keeps moving on the Road
 
-Coins and obstacles come from the Top
+Coins and ObstaclesES Tringels  Come from the Top
 
-As your score gets higher, the game level also goes Up
+As your Score gets higheR The game level also goes Up
 
-The game slowly becomes fasterres
+The game Slowly becomes Fasterres
 
-If you hit an obstacle or another Car the game is overer
+If you Hit an BbstacleS Or Another Car the game is overer
 
 Controls
 
