@@ -9,3 +9,5 @@ YOU Play speed increesing
 And level incresing Also 
 The most Chalanging Part is lopp 
 byt the game works perfectly use Eight Left up arrows to play gamee
+You hvae to BE safe from Red trangesls and The coming patlu car 
+If you dont aware from obkeccts You loose TH Game
