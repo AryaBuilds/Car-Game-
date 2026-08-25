@@ -1,25 +1,8 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <meta charset="UTF-8">
-  <title>Motu Patlu Road Race</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <div id="game">
-    <canvas id="canvas"></canvas>
-
-    <div class="top">
-      <b>LEVEL: <span id="level">1</span></b>
-      <b>SCORE: <span id="score">0</span></b>
-    </div>
-
-    <div id="over">
-      OH NO! GAME OVER
-      <button onclick="location.reload()">PLAY AGAIN</button>
-    </div>
-  </div>
-
-  <script src="game.js"></script>
-</body>
-</html>
+<html><head><meta charset="UTF-8"><title>Motu Patlu Road Race</title><link rel="stylesheet" href="style.css"></head>
+<body><div id="game"><canvas id="canvas"></canvas>
+<div id="top"><div class="box">🪙 Score: <span id="score">0</span></div><div id="title">Motu Patlu<br><small>Road Race</small></div><div class="box">Level: <span id="level">1</span></div></div>
+<div id="msg">Collet coinz! Dont hit stuff!!</div>
+<div id="buttons"><button id="left">←</button><button id="right">→</button><button id="jump">↑<small>Jump</small></button></div>
+<div id="over"><div><h1>OHH NOO!</h1><p>Gaem Overrr :(</p><p>Your Scoore: <span id="final">0</span></p><button onclick="location.reload()">Play Agin</button></div></div>
+</div><script src="game.js"></script></body></html>

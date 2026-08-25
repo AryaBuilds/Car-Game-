@@ -1,0 +1,1 @@
+Open index.html to play. Some game text is intentionally misspelled for a playful kid-made feel.
