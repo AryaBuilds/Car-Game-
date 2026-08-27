@@ -2,14 +2,13 @@
   box-sizing: border-box;
 }
 
-html,
-body {
-  margin: 0;
+html, body {
+  margin: 0px;
   width: 100%;
   height: 100%;
   overflow: hidden;
   font-family: Arial, sans-serif;
-  background: #68c7eb;
+  background-color: #68c7eb;
 }
 
 #game {
@@ -25,66 +24,72 @@ canvas {
   display: block;
 }
 
+/* upar ka score level wala box */
 #hud {
   position: absolute;
-  top: 14px;
-  left: 18px;
-  right: 18px;
+  top: 10px;
+  left: 15px;
+  right: 20px;
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
   pointer-events: none;
 }
 
 .box {
-  background: #fff6b0;
-  border: 3px solid #222;
-  border-radius: 12px;
-  padding: 9px 16px;
-  font-size: clamp(16px, 2vw, 25px);
+  background: yellow;
+  border: 3px solid black;
+  border-radius: 10px;
+  padding: 10px 15px 8px 20px;
+  font-size: 20px;
   font-weight: bold;
+  color: #000;
 }
 
 #title {
-  background: #ffd83b;
-  border: 3px solid #222;
-  border-radius: 10px;
-  padding: 7px 22px;
+  background-color: orange;
+  border: 4px solid black;
+  border-radius: 8px;
+  padding: 5px 25px;
   text-align: center;
-  font-size: clamp(25px, 4vw, 48px);
-  line-height: 0.9;
+  font-size: 30px;
   font-weight: bold;
-  color: #e53b32;
+  color: red;
+  margin-top: -5px;
 }
 
 #title small {
   display: block;
-  margin-top: 5px;
-  font-size: 0.48em;
-  color: #2468b8;
+  font-size: 14px;
+  color: blue;
 }
 
 #buttons {
   position: absolute;
-  bottom: 22px;
-  left: 24px;
-  right: 24px;
+  bottom: 20px;
+  left: 20px;
+  right: 25px;
   display: flex;
-  gap: 14px;
+  gap: 10px;
 }
 
 button {
-  border: 3px solid #222;
-  background: #ffe13d;
+  border: 3px solid black;
+  background-color: #ffe13d;
   font-weight: bold;
   cursor: pointer;
 }
 
 #buttons button {
-  width: 82px;
-  height: 82px;
+  width: 80px;
+  height: 75px;
   border-radius: 50%;
-  font-size: 48px;
+  font-size: 40px;
+  box-shadow: 2px 2px 0px black;
+}
+
+#right {
+  width: 85px;
+  height: 80px;
 }
 
 #jump {
@@ -93,77 +98,71 @@ button {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  border-radius: 40%;
 }
 
 #jump small {
-  font-size: 14px;
+  font-size: 12px;
+  margin-top: -3px;
 }
 
 #over {
   display: none;
   position: absolute;
-  inset: 0;
-  background: rgba(0, 0, 0, 0.45);
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5);
   align-items: center;
   justify-content: center;
   text-align: center;
 }
 
 .over-box {
-  background: #ffe13d;
-  border: 4px solid #222;
-  border-radius: 16px;
-  padding: 24px 35px;
+  background-color: #ffe13d;
+  border: 5px solid black;
+  border-radius: 20px;
+  padding: 20px 40px 30px 40px;
 }
 
 .over-box h1 {
-  margin: 0 0 8px;
-  color: #e53b32;
-  font-size: 42px;
+  margin: 0px;
+  margin-bottom: 10px;
+  color: red;
+  font-size: 38px;
 }
 
 .over-box p {
-  margin: 5px 0 18px;
-  font-size: 21px;
+  margin: 5px;
+  font-size: 19px;
   font-weight: bold;
+  color: black;
 }
 
 .over-box button {
-  padding: 10px 20px;
-  border-radius: 8px;
-  font-size: 18px;
+  padding: 12px 25px;
+  border-radius: 6px;
+  font-size: 17px;
+  background-color: lightgreen;
+  margin-top: 10px;
 }
 
+/* mobile ke liye, chota screen hoga to */
 @media (max-width: 650px) {
-  #hud {
-    top: 7px;
-    left: 7px;
-    right: 7px;
-  }
-
   .box {
-    padding: 7px 9px;
-    font-size: 14px;
+    padding: 6px 8px;
+    font-size: 12px;
   }
 
   #title {
-    padding: 6px 10px;
-    font-size: 23px;
-  }
-
-  #buttons {
-    bottom: 10px;
-    left: 10px;
-    right: 10px;
+    padding: 5px 8px;
+    font-size: 18px;
   }
 
   #buttons button {
-    width: 68px;
-    height: 68px;
-    font-size: 38px;
-  }
-
-  #jump small {
-    font-size: 12px;
+    width: 60px;
+    height: 60px;
+    font-size: 30px;
   }
 }
