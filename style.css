@@ -1,29 +1,25 @@
 * {
   box-sizing: border-box;
 }
-
 html, body {
   margin: 0px;
-  width: 100%;
+  width: 92%;
   height: 100%;
   overflow: hidden;
   font-family: Arial, sans-serif;
-  background-color: #68c7eb;
+  background-color: #78c7eb;
 }
-
 #game {
   width: 100vw;
-  height: 100vh;
+  height: 96vh;
   position: relative;
   overflow: hidden;
 }
-
 canvas {
   width: 100%;
   height: 100%;
   display: block;
 }
-
 /* upar ka score level wala box */
 #hud {
   position: absolute;
@@ -34,7 +30,6 @@ canvas {
   justify-content: space-between;
   pointer-events: none;
 }
-
 .box {
   background: yellow;
   border: 3px solid black;
@@ -44,7 +39,6 @@ canvas {
   font-weight: bold;
   color: #000;
 }
-
 #title {
   background-color: orange;
   border: 4px solid black;
@@ -62,7 +56,6 @@ canvas {
   font-size: 14px;
   color: blue;
 }
-
 #buttons {
   position: absolute;
   bottom: 20px;
@@ -71,14 +64,12 @@ canvas {
   display: flex;
   gap: 10px;
 }
-
 button {
   border: 3px solid black;
   background-color: #ffe13d;
   font-weight: bold;
   cursor: pointer;
 }
-
 #buttons button {
   width: 80px;
   height: 75px;
@@ -86,12 +77,10 @@ button {
   font-size: 40px;
   box-shadow: 2px 2px 0px black;
 }
-
 #right {
   width: 85px;
   height: 80px;
 }
-
 #jump {
   margin-left: auto;
   display: flex;
@@ -100,7 +89,6 @@ button {
   justify-content: center;
   border-radius: 40%;
 }
-
 #jump small {
   font-size: 12px;
   margin-top: -3px;
@@ -163,6 +151,6 @@ button {
   #buttons button {
     width: 60px;
     height: 60px;
-    font-size: 30px;
+    font-size: 33px;
   }
 }
