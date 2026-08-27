@@ -1,0 +1,169 @@
+* {random
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  font-family: Arial, sans-serif;
+  background: #68c7eb;
+}
+
+#game {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+canvas {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+#hud {
+  position: absolute;
+  top: 14px;
+  left: 18px;
+  right: 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  pointer-events: none;
+}
+
+.box {
+  background: #fff6b0;
+  border: 3px solid #222;
+  border-radius: 12px;
+  padding: 9px 16px;
+  font-size: clamp(16px, 2vw, 25px);
+  font-weight: bold;
+}
+
+#title {
+  background: #ffd83b;
+  border: 3px solid #222;
+  border-radius: 10px;
+  padding: 7px 22px;
+  text-align: center;
+  font-size: clamp(25px, 4vw, 48px);
+  line-height: 0.9;
+  font-weight: bold;
+  color: #e53b32;
+}
+
+#title small {
+  display: block;
+  margin-top: 5px;
+  font-size: 0.48em;
+  color: #2468b8;
+}
+
+#buttons {
+  position: absolute;
+  bottom: 22px;
+  left: 24px;
+  right: 24px;
+  display: flex;
+  gap: 14px;
+}
+
+button {
+  border: 3px solid #222;
+  background: #ffe13d;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#buttons button {
+  width: 82px;
+  height: 82px;
+  border-radius: 50%;
+  font-size: 48px;
+}
+
+#jump {
+  margin-left: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#jump small {
+  font-size: 14px;
+}
+
+#over {
+  display: none;
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.45);
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.over-box {
+  background: #ffe13d;
+  border: 4px solid #222;
+  border-radius: 16px;
+  padding: 24px 35px;
+}
+
+.over-box h1 {
+  margin: 0 0 8px;
+  color: #e53b32;
+  font-size: 42px;
+}
+
+.over-box p {
+  margin: 5px 0 18px;
+  font-size: 21px;
+  font-weight: bold;
+}
+
+.over-box button {
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 18px;
+}
+
+@media (max-width: 650px) {
+  #hud {
+    top: 7px;
+    left: 7px;
+    right: 7px;
+  }
+
+  .box {
+    padding: 7px 9px;
+    font-size: 14px;
+  }
+
+  #title {
+    padding: 6px 10px;
+    font-size: 23px;
+  }
+
+  #buttons {
+    bottom: 10px;
+    left: 10px;
+    right: 10px;
+  }
+
+  #buttons button {
+    width: 68px;
+    height: 68px;
+    font-size: 38px;
+  }
+
+  #jump small {
+    font-size: 12px;
+  }
+}
