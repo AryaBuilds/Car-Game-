@@ -63,10 +63,9 @@ The my Game is INspireed by MOtu patlu cartooon
 The most Hardest thing of The Game is To make The Dedgien
 I spent hours ON the dedgine 
 
-BUT still the game is not completed 
+i want ti aad sime new graphuics in future some lederbord and make it online and Increees Graphics the game is not coplete version because Iam working on The game yo Make it online 
 
-I have a challange for aal of my frend if you are a gamer Real game Alive at 3rd level 
-YOU Play speed increesing 
+
 
 And level incresing Also 
 The most Chalanging Part is lopp 
