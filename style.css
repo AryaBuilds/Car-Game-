@@ -1,6 +1,6 @@
 :root{
-  --bg:#151515;--box:#222;--box2:#292929;--text:#ddd;--muted:#888;
-  --line:#3b3b3b;--orange:#a7602d;--green:#586b4e;--purple:#66558f;
+  --bg:#151515;--box:#222;--box2:##00FF00;--text:#ddd;--muted:#888;
+  --line:#3b3b3b;--orange:#a7602d;--green:#586b4e;--purple:#4CAF50;
 }
 *{margin:0;padding:0;box-sizing:border-box}
 html,body{height:100%;overflow:hidden}
