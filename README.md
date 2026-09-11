@@ -1,8 +1,8 @@
 # R3F Car Racing
 
-**A 3D web mini-game about driving a car.** Implemented using **react-three-fiber** and **cannon.js** technologies, the game aims to demonstrate **how impressive and varied the user experience with the browser can be.**
+**A 3D mini game i amdded its has top view camera angel thats so crazy looking 
 
-By driving a car around a small race track, manipulating objects and performing flips, the project is designed to not only be fun, but also show how flexible and powerful creating interactive content on the web can be.
+By driving a car around a small race track, manipulating objects and performing flips you willmake it much better
 
 ![Game screenshot](public/screenshots/Screen2.jpg)
 
@@ -12,9 +12,9 @@ The project uses the following key libraries and tools:
 
 - **React-three-fiber (R3F)** - is a library for React designed to create 3D scenes using the three.js library. (Integration between Three.js and React)
 - **Cannon.js** - is a physics engine for JavaScript designed to simulate the physics of objects. (For example, collisions and dynamic movements).
-- **Blender** - is a powerful and free 3D modeling tool. It provides a wide range of tools for creating 3D objects and scenes.
+- **Blender** - is a powerful and free 3D modeling tool. It provides a wide range of tools for creating 3D objects and scenes
 
-```plaintext
+```structure
 R3F-CAR-RACING
 ├── public
 │   ├── models/         // .glb objects
@@ -43,23 +43,9 @@ R3F-CAR-RACING
 
 ## Get Started
 
-Try the game right in your browser! [(click me)](https://DanieloM83.github.io/R3F-Car-Racing)
+Try the game is on your browser clcik it to view https://aryabuilds.github.io/Car-Game-/
 
-Ready to explore the code behind the scenes? Follow these simple steps to set up the project on your local machine:
-
-```bash
-git clone https://github.com/DanieloM83/R3F-Car-Racing.git
-
-cd R3F-Car-Racing
-
-npm install -g yarn  # npm comes bundled with Node.js
-
-yarn  # download all dependencies (may take some time)
-
-yarn dev  # start the project
-```
-
-This will launch the project on your local machine, and you can access it by navigating to (usually) http://localhost:5173 in your web browser.
+ 
 
 ## Screentshots
 
