@@ -3,6 +3,9 @@
 **A 3D mini game i amdded its has top view camera angel thats so crazy looking 
 
 By driving a car around a small race track, manipulating objects and performing flips you willmake it much better
+.in this project the hardest and time taking part is to dedgien my car its too hard and i spent almost 8 hours to dedgine the car properly 
+the game is super cool working but have a problem its load soo late first time 
+
 
 ![Game screenshot](public/screenshots/Screen2.jpg)
 
